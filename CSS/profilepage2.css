@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: rgb(51, 43, 43);
+}
+
+font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+
+/* nav menu ------------------------------------------------------------------------------ */
+
+.navigation {
+    /* margin: 0 auto; */
+    background-color: rgb(19, 19, 19);
+}
+
+.nav ul {
+    list-style: none;
+    padding-left: 5px;
+}
+
+.nav li {
+    padding: 6px 8px 6px 8px;
+    margin: 10px 4px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #818181;
+    display: block;
+    background-color:rgb(175, 166, 175)
+}
+
+.nav li:hover {
+    background-color:rgb(154, 235, 235);
+    color:rgb(56, 54, 54);
+    transition-duration: 150ms;
+}
+
+#msca {
+    width: 132px;
+    height: auto;
+}
+
+.nav #msca {
+    padding: 0px;
+    border: 0px;
+}
+
+
+  /* main body ------------------------------------------------------------------------------------- */
+
+.p {
+    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.navigation,
+.main,
+.currentProjects,
+.socials,
+.contactMe {
+    width: auto;
+    padding: 0px 10px;
+    margin: 0 auto;
+    background-color:rgb(110, 101, 101);
+    /* border: 4px solid red; */
+}
+
+.main .aboutMe {
+    width: auto;
+    color: white;
+    background-color:rgb(51, 43, 43)
+}
+
+.project2, 
+.project3, 
+.project4, 
+.project5, 
+.project6 {
+    width: 0 auto;
+    display: block;
+    text-align: center;
+    padding: 10px 15px 30px 10px;
+    padding-bottom: 30px;
+}
+
+.hr {
+    background-color: rgb(124, 145, 145);
+}
+
+img {
+    width: 900px;
+    height: auto;
+    border: 10px solid rgb(77, 73, 77);
+}
+
+img:hover {
+    border:10px solid rgb(154, 235, 235);
+    transition-duration: 150ms;
+}
+
+.btn {
+    color: white;
+    background-color:rgb(51, 43, 43)
+}
